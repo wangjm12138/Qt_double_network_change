@@ -1,0 +1,3 @@
+pyuic5.exe -o De_socks5_ui.py socks52.ui
+python main.py
+pyinstaller.exe -F main.py --noconsole
